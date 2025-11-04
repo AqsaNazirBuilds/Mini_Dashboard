@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mini Dashboard</title>
+<link rel="stylesheet" href="style.css">
+<link rel="icon" type="image/png" href="assets/favicon.png">
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body data-theme="light">
+
+<div class="sidebar">
+    <div class="logo">
+        <img src="assets/logo.png" alt="Logo" />
+        <h2>Admin Panel</h2>
+    </div>
+    <a href="#" data-section="dashboard" class="active">🏠 Dashboard</a>
+    <a href="#" data-section="users">👥 Users</a>
+    <a href="#" data-section="reports">📊 Reports</a>
+    <a href="#" data-section="settings">⚙️ Settings</a>
+</div>
+
+<div class="main">
+    <div class="top-bar">
+        <h1 id="section-title">Dashboard</h1>
+        <div class="header-right">
+            <button class="theme-toggle">Toggle Theme</button>
+            <div class="profile-menu">
+                <img src="https://i.ibb.co/4V3XwW2/profile.png" alt="Avatar" class="profile-avatar">
+                <div class="dropdown">
+                    <a href="#" id="profile-btn">Profile</a>
+                    <a href="#" id="settings-btn">Settings</a>
+                    <a href="#" id="logout-btn">Logout</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="section-content"></div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
