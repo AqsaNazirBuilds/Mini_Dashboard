@@ -27,22 +27,6 @@ Includes a sidebar, dynamic content sections, cards, charts, theme toggle, and a
 
 ---
 
-## Installation / Usage
-
-1. Clone the repository:  
-   ```bash
-   git clone https://github.com/AqsaNazirBuilds/Mini_Dashboard.git
-````
-
-2. Navigate to the project folder:
-
-   ```bash
-   cd mini-admin-dashboard
-   ```
-3. Open `index.html` in your browser to view the dashboard.
-
----
-
 ## Folder Structure
 
 ```
@@ -63,9 +47,13 @@ https://aqsanazirbuilds.github.io/Mini_Dashboard/
 
 ---
 
-## License
+## Developer
 
-This project is **open-source** and free to use.
+Aqsa Nazir.
+
+---
+
+⭐ If you find this project useful, give it a star on GitHub!
 
 ```
 
